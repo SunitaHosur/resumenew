@@ -1,0 +1,123 @@
+body {
+    background: white; 
+  }
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {
+    padding: 1rem 5rem 5rem 5rem; 
+    border: 2px solid black; 
+    width: 21cm;
+    height: 35.7cm;; 
+  }
+  .heading{
+      text-align: center;
+  }
+  hr.new {
+    border: 1px solid red;
+  }
+  /* first */
+  .first{
+      font-weight: bold;
+      font-size: 20px;
+  }
+  /* second */
+  .second, .third, .fourth, .fifth, .sixth, .eight, .ninth, .tenth{
+    padding-top: 1.5rem;
+  }
+  .second p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* third */
+  .third p, .fourth p, .fifth p,.sixth p {
+    font-size: 20px; 
+  }
+  .third p span, .fourth p span, .fifth p span, .sixth p span, .ninth p span{
+      font-weight: bold;
+  }
+  .third p .span-1, .fourth p .span-1{
+      padding-right: 25px;
+  }
+  .third p .span-2, .fourth p .span-2{
+    padding-right: 63px;
+  }
+  .third p .span-3 {
+    padding-right: 74px;
+  }
+/* fourth */
+.fourth p .span-3{
+    padding-right: 165px;
+  }
+  /* fifth */
+  .fifth p .span-1{
+    padding-right: 67px;
+}
+  .fifth p .span-2{
+    padding-right: 79px;
+  }
+  .fifth p .span-3{
+    padding-right: 14px;
+  }
+  /* sixth */
+  .sixth p .span-1{
+    padding-right: 75px;
+  }
+  .sixth p .span-2{
+    padding-right: 57px;
+  }
+  .sixth p .span-3{
+    padding-right: 60px;
+  }
+  .sixth p .span-4{
+    padding-right: 11px;
+  }
+  /* seventh */
+  .seventh ul li, .eight ul li{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .seventh  li.list-1{
+    margin-left: 5rem;
+  }
+  .eight .span-list{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* ninth */
+  .ninth{
+    font-size: 20px;
+  }
+  .ninth p .span-1{
+    padding-right: 128px;
+  }
+  .ninth p .span-2{
+    padding-right: 65px;
+  }
+  .ninth p .span-3{
+    padding-right: 31px;
+  }
+  .ninth p .span-4{
+    padding-right: 116px;
+  }
+  .ninth p .span-5{
+    padding-right: 85px;
+  }
+  .ninth p .span-6{
+    padding-right: 111px;
+  }
+  /* tenth */
+  .tenth p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
