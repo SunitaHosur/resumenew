@@ -9,10 +9,10 @@ body {
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   }
   page[size="A4"] {
-    padding: 1rem 5rem 5rem 5rem; 
+    padding: 0rem 5rem 5rem 5rem; 
     border: 2px solid black; 
     width: 21cm;
-    height: 35.7cm;; 
+    height: 36.7cm;; 
   }
   .heading{
       text-align: center;
